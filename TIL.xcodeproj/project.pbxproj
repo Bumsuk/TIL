@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C068279726989EF800D770D0 /* TIL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TIL.entitlements; sourceTree = "<group>"; };
 		CD74C9812578A41F004C8694 /* TIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74C9842578A41F004C8694 /* TILApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TILApp.swift; sourceTree = "<group>"; };
 		CD74C9862578A41F004C8694 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		CD74C9832578A41F004C8694 /* TIL */ = {
 			isa = PBXGroup;
 			children = (
+				C068279726989EF800D770D0 /* TIL.entitlements */,
 				CD74C9842578A41F004C8694 /* TILApp.swift */,
 				CD74C9862578A41F004C8694 /* ContentView.swift */,
 				CD74C9972579C149004C8694 /* AddThingView.swift */,
@@ -239,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -294,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -309,8 +311,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TIL/TIL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TIL/Preview Content\"";
+				DEVELOPMENT_TEAM = V52W229XV3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TIL/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -320,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.TIL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -330,8 +335,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TIL/TIL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TIL/Preview Content\"";
+				DEVELOPMENT_TEAM = V52W229XV3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TIL/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -341,6 +348,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.TIL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

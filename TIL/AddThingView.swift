@@ -38,7 +38,7 @@ struct AddThingView: View {
   var body: some View {
     VStack {
       Button("Done") {
-        presentationMode.wrappedValue.dismiss()
+         presentationMode.wrappedValue.dismiss()
       }
       Spacer()
     }
